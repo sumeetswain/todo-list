@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #0b3954;
+  color: #bfd7ea;
+  display: grid;
+  place-items: center;
+}
+.container {
+  display: flex;
+  height: 500px;
+  width: 1500px;
+}
+.left {
+  width: 30%;
+  padding: 20px;
+}
+.right {
+  padding-top: 30px;
+  width: 70%;
+}
+
+.todo {
+  font-size: large;
+  padding-left: 10px;
+}
+
+#todoForm {
+  width: 300px;
+}
+
+#form button {
+  margin-top: 10px;
+}
+.transparent .list-group-item {
+  background-color: #087e8b;
+  color: #bfd7ea;
+}
+h3 {
+  text-align: center;
+}
